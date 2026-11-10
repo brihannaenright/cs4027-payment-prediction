@@ -1,0 +1,7 @@
+,trips_failing,share
+card_or_cash,1161099,0.3117
+in_month,7,0.0
+fare_3_to_500,42254,0.0113
+distance_0.1_to_100,158904,0.0427
+duration_1_to_180,85502,0.023
+kept (pass every rule),2474341,0.6643

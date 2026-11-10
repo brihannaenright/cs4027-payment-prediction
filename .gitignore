@@ -1,0 +1,13 @@
+# big or rebuildable: never commit
+data/*.parquet
+prepared/
+results/models/
+logs/
+
+# Python and Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+.DS_Store

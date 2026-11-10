@@ -1,0 +1,4 @@
+split,month,source,MB,trips
+train,2026-01,data/,64.2,3724889
+val,2026-02,data/,58.7,3399866
+test,2026-03,data/,67.9,3952451
