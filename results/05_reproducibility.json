@@ -1,0 +1,260 @@
+{
+  "sampling": {
+    "month": "2026-01",
+    "sampled_per_run": 74498,
+    "unseeded_different_trip_ids": 146054,
+    "unseeded_varied": true,
+    "seeded_outputs_match": true,
+    "runs": [
+      {
+        "setting": "unseeded",
+        "run": 1,
+        "row_id_hash": "d95abdd3ee9d24fef20d00264cf52b0aa59bd09089ecd0e72155808afe55cd5b"
+      },
+      {
+        "setting": "unseeded",
+        "run": 2,
+        "row_id_hash": "1fd2b3b892739444c82bccd81fef136b096d0a2232fd3129c4936ef25b68de25"
+      },
+      {
+        "setting": "seeded",
+        "run": 1,
+        "row_id_hash": "a6dd424b31b96bfa838aa3e8c7275301dbc6ad6cd91ee023a2fcd89aa16d18dc"
+      },
+      {
+        "setting": "seeded",
+        "run": 2,
+        "row_id_hash": "a6dd424b31b96bfa838aa3e8c7275301dbc6ad6cd91ee023a2fcd89aa16d18dc"
+      }
+    ]
+  },
+  "feature_ordering": {
+    "completion_order_varied": true,
+    "fixed_outputs_match": true,
+    "runs": [
+      {
+        "run": 1,
+        "task_order": [
+          "trip_flags",
+          "time_and_speed",
+          "recorded_features"
+        ],
+        "column_order": [
+          "has_tolls",
+          "is_airport",
+          "same_zone",
+          "hour",
+          "day_of_week",
+          "is_weekend",
+          "is_night",
+          "duration_min",
+          "speed_mph",
+          "fare_per_mile",
+          "trip_distance",
+          "fare_amount",
+          "extra",
+          "tolls_amount",
+          "congestion_surcharge",
+          "airport_fee",
+          "cbd_congestion_fee",
+          "passenger_count",
+          "store_and_fwd",
+          "VendorID",
+          "RatecodeID",
+          "PULocationID",
+          "DOLocationID",
+          "route",
+          "is_cash"
+        ],
+        "completion_table_matches_sequential": false,
+        "fixed_table_matches_sequential": true
+      },
+      {
+        "run": 2,
+        "task_order": [
+          "trip_flags",
+          "time_and_speed",
+          "recorded_features"
+        ],
+        "column_order": [
+          "has_tolls",
+          "is_airport",
+          "same_zone",
+          "hour",
+          "day_of_week",
+          "is_weekend",
+          "is_night",
+          "duration_min",
+          "speed_mph",
+          "fare_per_mile",
+          "trip_distance",
+          "fare_amount",
+          "extra",
+          "tolls_amount",
+          "congestion_surcharge",
+          "airport_fee",
+          "cbd_congestion_fee",
+          "passenger_count",
+          "store_and_fwd",
+          "VendorID",
+          "RatecodeID",
+          "PULocationID",
+          "DOLocationID",
+          "route",
+          "is_cash"
+        ],
+        "completion_table_matches_sequential": false,
+        "fixed_table_matches_sequential": true
+      },
+      {
+        "run": 3,
+        "task_order": [
+          "trip_flags",
+          "time_and_speed",
+          "recorded_features"
+        ],
+        "column_order": [
+          "has_tolls",
+          "is_airport",
+          "same_zone",
+          "hour",
+          "day_of_week",
+          "is_weekend",
+          "is_night",
+          "duration_min",
+          "speed_mph",
+          "fare_per_mile",
+          "trip_distance",
+          "fare_amount",
+          "extra",
+          "tolls_amount",
+          "congestion_surcharge",
+          "airport_fee",
+          "cbd_congestion_fee",
+          "passenger_count",
+          "store_and_fwd",
+          "VendorID",
+          "RatecodeID",
+          "PULocationID",
+          "DOLocationID",
+          "route",
+          "is_cash"
+        ],
+        "completion_table_matches_sequential": false,
+        "fixed_table_matches_sequential": true
+      },
+      {
+        "run": 4,
+        "task_order": [
+          "trip_flags",
+          "time_and_speed",
+          "recorded_features"
+        ],
+        "column_order": [
+          "has_tolls",
+          "is_airport",
+          "same_zone",
+          "hour",
+          "day_of_week",
+          "is_weekend",
+          "is_night",
+          "duration_min",
+          "speed_mph",
+          "fare_per_mile",
+          "trip_distance",
+          "fare_amount",
+          "extra",
+          "tolls_amount",
+          "congestion_surcharge",
+          "airport_fee",
+          "cbd_congestion_fee",
+          "passenger_count",
+          "store_and_fwd",
+          "VendorID",
+          "RatecodeID",
+          "PULocationID",
+          "DOLocationID",
+          "route",
+          "is_cash"
+        ],
+        "completion_table_matches_sequential": false,
+        "fixed_table_matches_sequential": true
+      },
+      {
+        "run": 5,
+        "task_order": [
+          "trip_flags",
+          "time_and_speed",
+          "recorded_features"
+        ],
+        "column_order": [
+          "has_tolls",
+          "is_airport",
+          "same_zone",
+          "hour",
+          "day_of_week",
+          "is_weekend",
+          "is_night",
+          "duration_min",
+          "speed_mph",
+          "fare_per_mile",
+          "trip_distance",
+          "fare_amount",
+          "extra",
+          "tolls_amount",
+          "congestion_surcharge",
+          "airport_fee",
+          "cbd_congestion_fee",
+          "passenger_count",
+          "store_and_fwd",
+          "VendorID",
+          "RatecodeID",
+          "PULocationID",
+          "DOLocationID",
+          "route",
+          "is_cash"
+        ],
+        "completion_table_matches_sequential": false,
+        "fixed_table_matches_sequential": true
+      },
+      {
+        "run": 6,
+        "task_order": [
+          "trip_flags",
+          "recorded_features",
+          "time_and_speed"
+        ],
+        "column_order": [
+          "has_tolls",
+          "is_airport",
+          "same_zone",
+          "trip_distance",
+          "fare_amount",
+          "extra",
+          "tolls_amount",
+          "congestion_surcharge",
+          "airport_fee",
+          "cbd_congestion_fee",
+          "passenger_count",
+          "store_and_fwd",
+          "VendorID",
+          "RatecodeID",
+          "PULocationID",
+          "DOLocationID",
+          "route",
+          "is_cash",
+          "hour",
+          "day_of_week",
+          "is_weekend",
+          "is_night",
+          "duration_min",
+          "speed_mph",
+          "fare_per_mile"
+        ],
+        "completion_table_matches_sequential": false,
+        "fixed_table_matches_sequential": true
+      }
+    ]
+  },
+  "both_sources_demonstrated": true
+}
