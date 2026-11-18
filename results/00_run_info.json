@@ -1,0 +1,36 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "logical_cpus": 22,
+  "slurm_cpus_per_task": null,
+  "slurm_cpus_on_node": null,
+  "packages": {
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "pyarrow": "26.0.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "ipykernel": "7.4.0",
+    "nbconvert": "7.17.2"
+  },
+  "on_rockhill": false,
+  "train_months": [
+    "2026-01"
+  ],
+  "validation_months": [
+    "2026-02"
+  ],
+  "test_months": [
+    "2026-03"
+  ],
+  "sample_fraction": 0.02,
+  "seed": 4207,
+  "max_workers": 3,
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

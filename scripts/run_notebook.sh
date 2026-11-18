@@ -15,7 +15,7 @@ cd "$(dirname "$0")/.."
 source ~/venv/bin/activate
 mkdir -p logs results
 
-nb="${1:-taxipay_pipeline.ipynb}"
+nb="${1:-notebooks/taxipay_pipeline.ipynb}"
 log="logs/run_$(date +%Y%m%d-%H%M%S).log"
 echo "$(date +%H:%M:%S)  running $nb   (log: $log)"
 start=$SECONDS
