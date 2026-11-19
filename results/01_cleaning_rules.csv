@@ -1,7 +1,4 @@
-,trips_failing,share
-card_or_cash,1161099,0.3117
-in_month,7,0.0
-fare_3_to_500,42254,0.0113
-distance_0.1_to_100,158904,0.0427
-duration_1_to_180,85502,0.023
-kept (pass every rule),2474341,0.6643
+month,raw_trips,sampled,kept,excluded_flex_fare,excluded_missing_payment,excluded_other_payment,failed_card_or_cash,failed_in_month,failed_fare_3_to_500,failed_distance_0.1_to_100,failed_duration_1_to_180
+2026-01,3724889,74498,49406,21862,0,1443,23305,0,846,3246,1728
+2026-02,3399866,67997,44888,20564,0,1021,21585,1,592,3088,1455
+2026-03,3952451,79049,57229,19023,0,876,19899,0,493,3036,1855

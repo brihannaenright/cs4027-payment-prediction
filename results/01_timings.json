@@ -2,7 +2,8 @@
   "months": 3,
   "workers": 3,
   "sample_fraction": 0.02,
-  "sequential_s": 3.24,
-  "parallel_s": 2.43,
-  "speedup": 1.33
+  "sequential_s": 3.79,
+  "parallel_s": 2.92,
+  "speedup": 1.3,
+  "outputs_match": true
 }
