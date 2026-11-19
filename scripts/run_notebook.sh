@@ -1,4 +1,15 @@
-#!/usr/bin/env bash
+cd "$(dirname "$0")/.."
+
+if [ -f "$HOME/venv/bin/activate" ]; then
+    source "$HOME/venv/bin/activate"
+elif [ -f ".venv/bin/activate" ]; then
+    source ".venv/bin/activate"
+else
+    echo "Error: No virtual environment found."
+    exit 1
+fi
+
+mkdir -p logs results#!/usr/bin/env bash
 # Rockhill only. Runs the notebook from start to finish and saves two copies WITH all
 # outputs in results/:
 #   taxipay_pipeline_executed.ipynb   the run with outputs (the version to submit)
@@ -12,7 +23,7 @@
 #   tail -f logs/run.out          # watch it (Ctrl+C stops watching, not the run)
 set -euo pipefail
 cd "$(dirname "$0")/.."
-source ~/venv/bin/activate
+
 mkdir -p logs results
 
 nb="${1:-notebooks/taxipay_pipeline.ipynb}"

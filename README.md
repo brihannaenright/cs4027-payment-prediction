@@ -6,7 +6,8 @@ CS4207 group project. A classifier that predicts whether a yellow-taxi trip is p
 
 | Path                             | What it is                                                                 |
 | -------------------------------- | -------------------------------------------------------------------------- |
-| `notebooks/taxipay_pipeline.ipynb` | The project. Sections 0 to 4, one owner each                             |
+| `notebooks/taxipay_pipeline.ipynb` |                   The project. Sections 0–5, covering setup, cleaning,
+feature extraction, model training, evaluation and reproducibility.           |
 | `requirements.txt`               | The libraries the notebook needs                                           |
 | `scripts/`                       | Two scripts for running the notebook on Rockhill                           |
 | `data/`, `prepared/`, `results/` | Created when the notebook runs (`data/` and `prepared/` are not committed) |
@@ -33,3 +34,16 @@ Open `notebooks/taxipay_pipeline.ipynb`, select your Python environment, then re
 The notebook saves downloads to the repository-root `data/` folder, cleaned and feature tables to `prepared/`, and reports and plots to `results/`. It also reuses existing downloads in `notebooks/data/`. Section 0 prints the environment and configuration and saves them to `results/00_run_info.json`.
 
 On Rockhill, run `bash scripts/run_notebook.sh` from the repository root to save the executed notebook and HTML report in `results/`.
+
+
+### Reproducing the results
+
+The notebook uses Python 3.12 and the dependencies listed in `requirements.txt`.
+
+On a local machine, the notebook uses January to March 2026, sampling 2% of trips from each month. On Rockhill, it uses January to September 2026 with a 5% sample.
+
+All configuration settings, including the random seed and maximum worker count, are defined in Section 0. The notebook records the Python environment, hardware details and experiment configuration in `results/00_run_info.json`.
+
+To reproduce the results, install the dependencies, restart the notebook kernel and run all cells in order. The notebook saves cleaned datasets to `prepared/` and experimental results to `results/`.
+
+On Rockhill, `bash scripts/run_notebook.sh` executes the full notebook and saves an executed notebook and HTML report. The script also records execution logs in `logs/`.
